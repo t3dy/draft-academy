@@ -121,7 +121,7 @@ const HomePage: React.FC = () => {
           {startHereCards.map((card) => (
             <Link
               key={card.pathwayId}
-              to={`/pathways/${card.pathwayId}`}
+              to={`/pathway/${card.pathwayId}`}
               style={{ textDecoration: 'none' }}
             >
               <div
